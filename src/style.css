@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Work Sans";
+  src: url(./WorkSans-VariableFont_wght.ttf);
+}
+
 html {
   box-sizing: border-box;
 }
@@ -22,6 +27,7 @@ html {
 body {
   margin: 0;
   font-size: 16px;
+  font-family: "Work Sans";
 }
 
 nav {
@@ -32,4 +38,8 @@ nav {
   display: flex;
   align-items: end;
   justify-content: start;
+}
+
+button {
+  font-family: "Work Sans";
 }
