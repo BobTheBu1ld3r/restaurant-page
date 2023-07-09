@@ -91,13 +91,22 @@ li.booking button {
   padding: 25px 300px;
 
   display: grid;
-  column-gap: 100px;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 150px);
+  justify-content: space-evenly;
 }
 
 .foot-columns > * {
   display: flex;
   flex-direction: column;
+}
+
+.foot-columns input {
+  width: auto;
+  height: 1rem;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid var(--footer-color);
+  margin: 10px 0;
 }
 
 .footer-second-menu {
