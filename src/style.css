@@ -15,6 +15,7 @@ html {
   --button-color-2: #255a40;
   --body-color: #242424;
   --footer-bg: #eaeaea;
+  --footer-color: #242424;
   --copywrite-bg: #e3e3e3;
 }
 
@@ -81,4 +82,28 @@ li.booking button {
   margin-left: auto;
   height: 52px;
   width: 167px;
+}
+
+.foot-columns {
+  background-color: var(--footer-bg);
+  color: var(--footer-color);
+  font-size: 12px;
+  padding: 25px 300px;
+
+  display: grid;
+  column-gap: 100px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.foot-columns > * {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-second-menu {
+  background-color: var(--copywrite-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
 }
