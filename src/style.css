@@ -40,8 +40,9 @@ nav {
 }
 
 nav ul {
-  height: 80px;
+  height: 60px;
   width: 100vw;
+  padding: 0 40px;
 
   display: flex;
   align-items: center;
@@ -50,13 +51,35 @@ nav ul {
 
 li {
   list-style-type: none;
+  font-size: 24px;
 }
 
-li + li {
-  border-left: 1px solid var(--main-color);
-  margin: 20px;
-}
-
-button {
+nav button {
   font-family: "Work Sans";
+  font-size: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+}
+
+button.link {
+  padding: 0 30px;
+  color: var(--button-bg);
+}
+
+li.link + li > button.link {
+  border-left: 1px solid var(--main-color);
+}
+
+li.booking {
+  margin-left: auto;
+}
+
+li.booking button {
+  background-color: var(--button-bg);
+  color: white;
+  margin-left: auto;
+  height: 52px;
+  width: 167px;
 }
