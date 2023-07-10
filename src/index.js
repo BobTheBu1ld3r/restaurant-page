@@ -13,4 +13,4 @@ homeButton.addEventListener("click", renderHomePage);
 menusButton.addEventListener("click", renderMenusPage);
 privateDiningButton.addEventListener("click", renderPrivateDiningPage);
 
-renderHomePage();
+// renderHomePage();
