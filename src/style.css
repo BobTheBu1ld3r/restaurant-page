@@ -63,9 +63,17 @@ nav button {
   background-color: transparent;
 }
 
-button.link {
+nav button.link {
   padding: 0 30px;
   color: var(--button-bg);
+}
+
+nav button.link.active,
+nav button.link:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--button-bg);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
 }
 
 li.link + li > button.link {
