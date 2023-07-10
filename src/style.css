@@ -92,6 +92,23 @@ li.booking button {
   width: 167px;
 }
 
+.hero-section {
+  height: calc(100vh - 120px);
+  width: 100%;
+
+  background: url("./hero-image.png") no-repeat center center border-box;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+h3 {
+  margin-top: 0;
+}
+
 .foot-columns {
   background-color: var(--footer-bg);
   color: var(--footer-color);
