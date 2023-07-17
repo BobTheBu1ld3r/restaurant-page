@@ -1,4 +1,5 @@
-import "./style.css";
+import "./main.css";
+import "./home.css";
 import renderHomePage from "./home.js";
 import renderMenusPage from "./menus.js";
 import renderPrivateDiningPage from "./privateDining.js";
