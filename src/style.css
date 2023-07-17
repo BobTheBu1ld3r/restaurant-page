@@ -136,6 +136,7 @@ h3 {
   aspect-ratio: 3.5;
   color: var(--button-color-2);
   background-color: white;
+  border: none;
 }
 
 .view-menu {
@@ -143,6 +144,24 @@ h3 {
   background-color: white;
   border: none;
   color: var(--button-color-2);
+}
+
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-booking {
+  background-color: var(--button-bg);
+  color: white;
+  margin-top: 25px;
+}
+
+.nav-menus {
+  border: 1px solid var(--button-color-2);
+  margin-bottom: 50px;
 }
 
 .foot-columns {
