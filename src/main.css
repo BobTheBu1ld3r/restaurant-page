@@ -1,0 +1,141 @@
+@font-face {
+  font-family: "Work Sans";
+  src: url(./WorkSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url(./PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #f7f7f7;
+  --main-color: #0e2e1e;
+  --button-bg: #102e25;
+  --button-color: white;
+  --button-color-2: #255a40;
+  --body-color: #242424;
+  --footer-bg: #eaeaea;
+  --footer-color: #242424;
+  --copywrite-bg: #e3e3e3;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: "Work Sans";
+}
+
+nav {
+  height: 120px;
+  background-color: var(--bg-color);
+
+  display: flex;
+  align-items: end;
+}
+
+nav ul {
+  height: 60px;
+  width: 100%;
+  padding: 0 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+li {
+  list-style-type: none;
+  font-size: 24px;
+}
+
+nav button {
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+}
+
+nav button.link {
+  padding: 0 30px;
+  color: var(--button-bg);
+}
+
+nav button.link.active,
+nav button.link:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--button-bg);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+li.link + li > button.link {
+  border-left: 1px solid var(--main-color);
+}
+
+li.booking {
+  margin-left: auto;
+}
+
+li.booking button {
+  background-color: var(--button-bg);
+  color: white;
+  margin-left: auto;
+  height: 52px;
+  width: 167px;
+}
+
+.nav-menus {
+  border: 1px solid var(--button-color-2);
+  margin-bottom: 50px;
+}
+
+.nav-menus:hover {
+  background-color: var(--button-bg);
+  color: white;
+}
+
+.foot-columns {
+  background-color: var(--footer-bg);
+  color: var(--footer-color);
+  font-size: 12px;
+  padding: 25px 300px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  justify-content: space-evenly;
+}
+
+.foot-columns > * {
+  display: flex;
+  flex-direction: column;
+}
+
+.foot-columns input {
+  width: auto;
+  height: 1rem;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid var(--footer-color);
+  margin: 10px 0;
+}
+
+.footer-second-menu {
+  background-color: var(--copywrite-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
