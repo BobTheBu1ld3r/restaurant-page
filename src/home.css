@@ -84,11 +84,18 @@ h3 {
   grid-template-columns: 550px 550px;
   gap: 60px;
   padding: 0 300px;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.7;
   color: var(--body-color);
 
   margin-top: 60px;
   margin-bottom: 30px;
+}
+
+.nav-menus {
+  border: 1px solid var(--button-color-2);
+  margin-bottom: 50px;
+}
+
+.nav-menus:hover {
+  background-color: var(--button-bg);
+  color: white;
 }
