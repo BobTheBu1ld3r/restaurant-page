@@ -1,0 +1,94 @@
+.hero-section {
+  height: calc(100vh - 120px);
+  width: 100%;
+
+  position: relative;
+  background-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.hero-section::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  background: url("./hero-image.png") no-repeat center center border-box;
+  background-size: cover;
+  z-index: -10;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 100;
+  font-family: "Playfair Display";
+  margin-bottom: 20px;
+  color: white;
+}
+
+.hero-copy {
+  font-size: 20px;
+  font-size: 100;
+  font-family: "Playfair Display";
+  margin-bottom: 18px;
+  margin-top: 0;
+  color: white;
+}
+
+.nav-button {
+  height: 45px;
+  aspect-ratio: 3.5;
+  color: var(--button-color-2);
+  background-color: white;
+  border: none;
+}
+
+.view-menu {
+  margin-bottom: 25px;
+  background-color: white;
+  border: none;
+  color: var(--button-color-2);
+}
+
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid var(--main-color);
+  margin-bottom: 60px;
+}
+
+.nav-booking {
+  background-color: var(--button-bg);
+  color: white;
+  margin-top: 25px;
+}
+
+.section-2-content-container {
+  display: grid;
+  grid-template-columns: 550px 550px;
+  gap: 60px;
+  padding: 0 300px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--body-color);
+
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
