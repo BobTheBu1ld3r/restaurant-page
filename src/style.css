@@ -3,6 +3,11 @@
   src: url(./WorkSans-VariableFont_wght.ttf);
 }
 
+@font-face {
+  font-family: "Playfair Display";
+  src: url(./PlayfairDisplay-VariableFont_wght.ttf);
+}
+
 html {
   box-sizing: border-box;
 }
