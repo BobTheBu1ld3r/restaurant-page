@@ -12,7 +12,7 @@ export default function renderHomePage() {
 </div>
 <div class="section-2">
   <button class="nav-booking nav-button">Book A Table</button>
-  <div class="section-2-content-container">
+  <div class="section-2-content-container body-text">
     <p>
       The Ivy is a haven of style and unfaltering service that shows a
       dedication to food that has set the standard for British dining
