@@ -114,6 +114,37 @@ h3 {
   margin-top: 0;
 }
 
+.hero-title {
+  font-size: 48px;
+  font-weight: 100;
+  font-family: "Playfair Display";
+  margin-bottom: 20px;
+  color: white;
+}
+
+.hero-copy {
+  font-size: 20px;
+  font-size: 100;
+  font-family: "Playfair Display";
+  margin-bottom: 18px;
+  margin-top: 0;
+  color: white;
+}
+
+.nav-button {
+  height: 45px;
+  aspect-ratio: 3.5;
+  color: var(--button-color-2);
+  background-color: white;
+}
+
+.view-menu {
+  margin-bottom: 25px;
+  background-color: white;
+  border: none;
+  color: var(--button-color-2);
+}
+
 .foot-columns {
   background-color: var(--footer-bg);
   color: var(--footer-color);
