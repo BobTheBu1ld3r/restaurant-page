@@ -151,6 +151,8 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-bottom: 1px solid var(--main-color);
+  margin-bottom: 60px;
 }
 
 .nav-booking {
@@ -159,9 +161,28 @@ h3 {
   margin-top: 25px;
 }
 
+.section-2-content-container {
+  display: grid;
+  grid-template-columns: 550px 550px;
+  gap: 60px;
+  padding: 0 300px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--body-color);
+
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
 .nav-menus {
   border: 1px solid var(--button-color-2);
   margin-bottom: 50px;
+}
+
+.nav-menus:hover {
+  background-color: var(--button-bg);
+  color: white;
 }
 
 .foot-columns {
