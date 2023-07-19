@@ -1,11 +1,12 @@
 import "./main.css";
 import "./home.css";
 import "./private-dining.css";
+import "./menus.css";
 import renderHomePage from "./home.js";
 import renderMenusPage from "./menus.js";
 import renderPrivateDiningPage from "./privateDining.js";
 
-// renderHomePage();
+renderHomePage();
 
 const content = document.querySelector("div.content");
 
