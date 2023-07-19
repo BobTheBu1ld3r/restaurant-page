@@ -6,6 +6,15 @@ import renderHomePage from "./home.js";
 import renderMenusPage from "./menus.js";
 import renderPrivateDiningPage from "./privateDining.js";
 
+import Logo from "./ivy-logo.svg";
+
+const logoElement = document.querySelector(".logo");
+
+const logo = new Image();
+logo.src = Logo;
+
+logoElement.appendChild(logo);
+
 renderHomePage();
 
 const content = document.querySelector("div.content");
