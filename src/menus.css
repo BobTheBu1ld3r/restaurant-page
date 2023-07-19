@@ -10,6 +10,7 @@
   background-position: center center, center center;
   background-size: cover, cover;
   font-size: 50px;
+  font-weight: 100;
   font-family: "Playfair Display";
   text-transform: uppercase;
   color: white;
@@ -19,8 +20,19 @@
   padding-bottom: 50px;
 }
 
-.menus-page-container > p {
+.name-container {
   height: 200px;
   width: 100%;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name-container > p {
+  font-family: "Playfair Display";
+  font-weight: 100;
+  color: var(--button-bg);
+  width: 600px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--button-bg);
 }
