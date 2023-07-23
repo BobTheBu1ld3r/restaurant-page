@@ -1,4 +1,5 @@
 import updatePage from "./updatePage.js";
+import renderMenusPage from "./menus.js";
 
 export default function renderHomePage() {
   const htmlContent = `
@@ -41,4 +42,9 @@ export default function renderHomePage() {
   const homeButton = document.querySelector("button.link.home");
 
   updatePage(htmlContent, homeButton);
+
+  const menusButtons = document.querySelectorAll("button.menus");
+  menusButtons.forEach((button) =>
+    button.addEventListener("click", renderMenusPage)
+  );
 }
